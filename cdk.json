@@ -1,0 +1,5 @@
+{
+  "app": "build/cdk/stack.js",
+  "versionReporting": false,
+  "requireApproval": "never"
+}

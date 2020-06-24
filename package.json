@@ -1,0 +1,30 @@
+{
+  "name": "aws-apigateway-ratelimiter-cdk",
+  "version": "1.0.0",
+  "description": "Example Rate limiter in CDK",
+  "scripts": {
+    "build": "tsc",
+    "pack": "tsc && webpack",
+    "diff": "npm run pack && cdk diff",
+    "synth": "npm run pack && cdk synth",
+    "deploy": "npm run pack && cdk deploy",
+    "destroy": "tsc && cdk destroy"
+  },
+  "author": "ashatch",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.44.0",
+    "@aws-cdk/aws-lambda": "^1.44.0",
+    "@aws-cdk/core": "^1.44.0",
+    "@types/aws-lambda": "^8.10.56",
+    "@types/node": "^14.0.13",
+    "aws-sdk": "^2.701.0",
+    "cdk": "^1.44.0",
+    "winston": "^3.3.1"
+  }
+}
